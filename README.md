@@ -1,6 +1,6 @@
 # TI-84 Evo - Scientific & Engineering Python Suite
 
-Coleccion de 14 scripts interactivos en **CircuitPython / MicroPython** disenados para la calculadora **Texas Instruments TI-84 Evo**. Automatiza el despeje de variables, pasos intermedios y verificacion de resultados para examenes y laboratorios universitarios.
+Coleccion de 15 scripts interactivos en **CircuitPython / MicroPython** disenados para la calculadora **Texas Instruments TI-84 Evo**. Automatiza el despeje de variables, pasos intermedios, visualizacion grafica y verificacion de resultados para examenes y laboratorios universitarios.
 
 ## Modulos Incluidos
 
@@ -20,6 +20,7 @@ Coleccion de 14 scripts interactivos en **CircuitPython / MicroPython** disenado
 | **`MATEMAT.py`** | Matematica y Algebra Vectorial | Vectores en $\mathbb{R}^3$ (modulos, producto escalar, angulo y producto cruz), regresion lineal por minimos cuadrados ($m, b, r, R^2$) con interpolacion y cuadraticas complejas. |
 | **`LABMATH.py`** | Laboratorio y Metodos Numericos | Propagacion automatica de errores experimentales ($\pm \Delta x$) y resolucion iterativa de la ecuacion trascendente de Kepler ($M = E - e \sin E$) por Newton-Raphson. |
 | **`CONST.py`** | Constantes y Conversor Universal | Tabla de constantes fisicas y astronomicas fundamentales, conversor de fotones ($\text{nm} \leftrightarrow \text{eV} \leftrightarrow \text{Hz} \leftrightarrow \text{J}$), presion ($\text{atm}, \text{Pa}, \text{mmHg}, \text{bar}$) y actividad ($\text{Ci} \leftrightarrow \text{Bq}$). |
+| **`DASH.py`** | Dashboard Grafico (ti_draw) | Interfaz grafica en modo oscuro (320x240 px) para simulacion de elipses orbitales de Kepler con telemetria en pantalla y graficador de curvas de saturacion de Michaelis-Menten. |
 
 ## Instalacion y Uso en la TI-84 Evo
 
