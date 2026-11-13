@@ -63,7 +63,7 @@ def dashboard_orbita():
     draw.draw_text(228, 142, "{:.2f} yr".format(t_anios))
     draw.set_color(180, 200, 255)
     draw.draw_text(228, 170, "q: {:.2f} UA".format(rp))
-    draw.set_color(228, 190, "Q: {:.2f} UA".format(ra))
+    draw.draw_text(228, 190, "Q: {:.2f} UA".format(ra))
     draw.set_color(130, 130, 130)
     draw.draw_text(228, 220, "[clear] Salir")
     draw.show_draw()
