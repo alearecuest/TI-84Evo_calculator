@@ -1,6 +1,6 @@
 # TI-84 Evo - Scientific & Engineering Python Suite
 
-Coleccion de 18 scripts interactivos en **CircuitPython / MicroPython** disenados para la calculadora **Texas Instruments TI-84 Evo**. Automatiza el despeje de variables, pasos intermedios, visualizacion grafica y verificacion de resultados para examenes y laboratorios universitarios.
+Coleccion de 21 scripts interactivos en **CircuitPython / MicroPython** disenados para la calculadora **Texas Instruments TI-84 Evo**. Automatiza el despeje de variables, pasos intermedios, visualizacion grafica y verificacion de resultados para examenes y laboratorios universitarios.
 
 ## Modulos Incluidos
 
@@ -11,6 +11,9 @@ Coleccion de 18 scripts interactivos en **CircuitPython / MicroPython** disenado
 | **`INSTRUM.py`** | Instrumentacion y Sensores | Escala de placa CCD/CMOS (arcsec/px), campo de vision ($FOV$), limite de Nyquist, relacion senal-ruido ($SNR$), error fotometrico, filtros $RC$ y decibeles ($dB$). |
 | **`BIOTECH.py`** | Biotecnologia y Quimica Analitica | Buffers (Henderson-Hasselbalch), cinetica enzimatica de Michaelis-Menten + Lineweaver-Burk, Ley de Beer-Lambert, diluciones y crecimiento celular ($\mu, t_d$). |
 | **`BIOQUIM.py`** | Bioquimica y Biologia Molecular | Energia libre de Gibbs ($\Delta G'$ real y $K'_{eq}$), potencial de Nernst, pureza y concentracion de ADN/ARN ($A_{260}/A_{280}$) y $T_m$ / $\%GC$ de primers PCR. |
+| **`ENZIMAS.py`** | Enzimologia Avanzada e Inhibicion | Numero de recambio ($k_{cat}$), eficiencia catalitica ($k_{cat}/K_m$), diagnostico de inhibicion (competitiva, acompetitiva, no competitiva y mixta con calculo de $K_i$ y $K_i'$) y ecuacion de Hill ($n_H$). |
+| **`TERMO.py`** | Termodinamica y Electroforesis | Ecuacion de Van 't Hoff ($\Delta H^\circ, \Delta S^\circ$ y $K_{eq}$ a distintas temperaturas), punto isoelectrico ($pI$) y migracion electroforetica, fuerza ionica ($I$) y coeficiente de actividad de Debye-Huckel ($\gamma$). |
+| **`CINETICA.py`** | Cinetica Quimica y Radiactiva | Leyes integradas de orden 0, 1 y 2 ($[A]_t, t_{1/2}, v$), determinacion de orden por velocidades iniciales y reacciones secuenciales / decaimiento en cadena $A \rightarrow B \rightarrow C$ (ecuacion de Bateman y $t_{\max}$). |
 | **`BIOLOGIA.py`** | Biologia, Genetica y Ecologia | Equilibrio de Hardy-Weinberg ($p, q, p^2, 2pq, q^2$), test de $\chi^2$ para cruzas geneticas, conteo en camara de Neubauer e indices de Shannon ($H'$) y Simpson. |
 | **`BIOSTAT.py`** | Bioestadistica y Diagnostico | Sensibilidad, especificidad, $VPP$ y $VPN$ clinico, test $t$ de Student para dos muestras independientes ($S_p, SE, |t|$) e intervalos de confianza (95% y 99%). |
 | **`ORGANICA.py`** | Quimica Organica | Indice de Deficiencia de Hidrogeno (IDH) y composicion centesimal, formula empirica desde analisis elemental, polarimetria ($[\alpha]_D$, $\%ee$) y cinetica de Arrhenius. |
