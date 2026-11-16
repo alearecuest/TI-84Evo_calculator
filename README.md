@@ -1,6 +1,6 @@
 # TI-84 Evo - Scientific & Engineering Python Suite
 
-Coleccion de 15 scripts interactivos en **CircuitPython / MicroPython** disenados para la calculadora **Texas Instruments TI-84 Evo**. Automatiza el despeje de variables, pasos intermedios, visualizacion grafica y verificacion de resultados para examenes y laboratorios universitarios.
+Coleccion de 18 scripts interactivos en **CircuitPython / MicroPython** disenados para la calculadora **Texas Instruments TI-84 Evo**. Automatiza el despeje de variables, pasos intermedios, visualizacion grafica y verificacion de resultados para examenes y laboratorios universitarios.
 
 ## Modulos Incluidos
 
@@ -14,6 +14,10 @@ Coleccion de 15 scripts interactivos en **CircuitPython / MicroPython** disenado
 | **`BIOLOGIA.py`** | Biologia, Genetica y Ecologia | Equilibrio de Hardy-Weinberg ($p, q, p^2, 2pq, q^2$), test de $\chi^2$ para cruzas geneticas, conteo en camara de Neubauer e indices de Shannon ($H'$) y Simpson. |
 | **`BIOSTAT.py`** | Bioestadistica y Diagnostico | Sensibilidad, especificidad, $VPP$ y $VPN$ clinico, test $t$ de Student para dos muestras independientes ($S_p, SE, |t|$) e intervalos de confianza (95% y 99%). |
 | **`ORGANICA.py`** | Quimica Organica | Indice de Deficiencia de Hidrogeno (IDH) y composicion centesimal, formula empirica desde analisis elemental, polarimetria ($[\alpha]_D$, $\%ee$) y cinetica de Arrhenius. |
+| **`ORGPRO.py`** | Quimica Organica Avanzada | Hibridacion VSEPR y geometria molecular (tetraedrica, trigonal, lineal), balance energetico de reacciones ($\Delta H$) y guia de pKa. |
+| **`ANALITICA.py`** | Quimica Analitica (UdelaR) | Estadistica de replicas y comparacion de metodos (t-Student pareada/independiente), calculos volumetricos y estandarizacion analitica. |
+| **`ESTEREO.py`** | Estereoquimica Organica | Calculo de IDH avanzado, maximo de estereoisomeros teoricos ($2^n$) y calculo de exceso enantiomerico ($\%ee$). |
+| **`ESPECTRO.py`** | Espectroscopia y Soluciones | Ley de Beer-Lambert universal (Absorbancia, Epsilon, Transmitancia) y planificador de diluciones seriadas para curvas de calibrado. |
 | **`FISQUIM.py`** | Fisicoquimica y Termodinamica | Gases reales de Van der Waals vs gas ideal, factor de compresibilidad $Z$, propiedades coligativas (presion osmotica, crioscopia, ebulloscopia) y Clausius-Clapeyron. |
 | **`RADIOMG.py`** | Fisica Radiologica e Imagenologia | Decaimiento radiactivo y actividad, blindaje ($HVL, TVL, \mu$), ley de inversa del cuadrado, RMN (frecuencia de Larmor y senal Spin-Echo $T_1/T_2$) y Ultrasonido/Doppler. |
 | **`OPTMEC.py`** | Biofisica, Optica y Mecanica | Ecuacion de Goldman-Hodgkin-Katz ($V_m$), lentes delgadas, Ley de Snell, angulo critico y de Brewster, choques 1D y Relatividad Especial (factor de Lorentz $\gamma$). |
