@@ -1,6 +1,6 @@
 # TI-84 Evo - Scientific & Engineering Python Suite
 
-Coleccion de 25 scripts interactivos en **CircuitPython / MicroPython** disenados para la calculadora **Texas Instruments TI-84 Evo**. Automatiza el despeje de variables, pasos intermedios, visualizacion grafica y verificacion de resultados para examenes y laboratorios universitarios.
+Coleccion de 30 scripts interactivos en **CircuitPython / MicroPython** disenados para la calculadora **Texas Instruments TI-84 Evo**. Automatiza el despeje de variables, pasos intermedios, visualizacion grafica y verificacion de resultados para examenes y laboratorios universitarios.
 
 ## Modulos Incluidos
 
@@ -8,8 +8,11 @@ Coleccion de 25 scripts interactivos en **CircuitPython / MicroPython** disenado
 | :--- | :--- | :--- |
 | **`ASTRO.py`** | Astronomia y Mecanica Orbital | Velocidad orbital/escape, periodo de Kepler ($T$), radio de Schwarzschild, optica instrumental ($f/\#$, aumento, Dawes, Rayleigh, pupila) y paralaje/magnitudes. |
 | **`ASTRO2.py`** | Astrofisica y Cosmologia | Cuerpo negro estelar (Wien, Stefan-Boltzmann, $L/L_\odot$), Redshift relativista ($z$), Ley de Hubble y transformacion Ecuatorial a Horizontal + Masa de Aire ($X$). |
+| **`ORBITAL.py`** | Astrodinamica y Misiones | Orbita de transferencia de Hohmann ($\Delta v_1, \Delta v_2$, tiempo de vuelo), ecuacion del cohete de Tsiolkovsky ($I_{sp}, \Delta v$) y limite de Roche (rigido y fluido). |
 | **`INSTRUM.py`** | Instrumentacion y Sensores | Escala de placa CCD/CMOS (arcsec/px), campo de vision ($FOV$), limite de Nyquist, relacion senal-ruido ($SNR$), error fotometrico, filtros $RC$ y decibeles ($dB$). |
 | **`BIOTECH.py`** | Biotecnologia y Quimica Analitica | Buffers (Henderson-Hasselbalch), cinetica enzimatica de Michaelis-Menten + Lineweaver-Burk, Ley de Beer-Lambert, diluciones y crecimiento celular ($\mu, t_d$). |
+| **`BIOPROC.py`** | Bioprocesos y Biorreactores | Cinetica de Monod y quimiostato continuo ($D_{\text{crit}}$, lavado, $S^*, X^*$), transferencia de oxigeno ($k_L a$, $OTR$, $q_{O_2}$) y escalado de reactores ($P/V$ y velocidad en punta). |
+| **`MOLBIO.py`** | Biologia Molecular de Mesada | Cuantificacion relativa qPCR por metodo $2^{-\Delta\Delta C_t}$, calculo de masas y volumenes para ligacion Vector:Inserto y conversion de centrifugacion ($\text{RPM} \leftrightarrow \text{RCF} \times g$). |
 | **`BIOQUIM.py`** | Bioquimica y Biologia Molecular | Energia libre de Gibbs ($\Delta G'$ real y $K'_{eq}$), potencial de Nernst, pureza y concentracion de ADN/ARN ($A_{260}/A_{280}$) y $T_m$ / $\%GC$ de primers PCR. |
 | **`ENZIMAS.py`** | Enzimologia Avanzada e Inhibicion | Numero de recambio ($k_{cat}$), eficiencia catalitica ($k_{cat}/K_m$), diagnostico de inhibicion (competitiva, acompetitiva, no competitiva y mixta con calculo de $K_i$ y $K_i'$) y ecuacion de Hill ($n_H$). |
 | **`TERMO.py`** | Termodinamica y Electroforesis | Ecuacion de Van 't Hoff ($\Delta H^\circ, \Delta S^\circ$ y $K_{eq}$ a distintas temperaturas), punto isoelectrico ($pI$) y migracion electroforetica, fuerza ionica ($I$) y coeficiente de actividad de Debye-Huckel ($\gamma$). |
@@ -20,12 +23,14 @@ Coleccion de 25 scripts interactivos en **CircuitPython / MicroPython** disenado
 | **`ORGANICA.py`** | Quimica Organica | Indice de Deficiencia de Hidrogeno (IDH) y composicion centesimal, formula empirica desde analisis elemental, polarimetria ($[\alpha]_D$, $\%ee$) y cinetica de Arrhenius. |
 | **`ORGPRO.py`** | Quimica Organica Avanzada | Hibridacion VSEPR y geometria molecular (tetraedrica, trigonal, lineal), balance energetico de reacciones ($\Delta H$) y guia de pKa. |
 | **`ANALITICA.py`** | Quimica Analitica (UdelaR) | Estadistica de replicas y comparacion de metodos (t-Student pareada/independiente), calculos volumetricos y estandarizacion analitica. |
+| **`TITULAC.py`** | Titulaciones, EDTA y Potenciometria | Distribucion de especies ($\alpha_0, \alpha_1, \alpha_2$) de acidos poliproticos, dureza del agua (ppm $\text{CaCO}_3$) y $K'_f$ condicional con EDTA, y punto final potenciometrico por 1ra y 2da derivada ($\Delta^2 E / \Delta V^2$). |
 | **`CROMAEQ.py`** | Cromatografia, Kps y Gravimetria | Parametros cromatograficos ($k', N, H, \alpha, R_s$), solubilidad molar a partir de $K_{ps}$ con efecto de ion comun y factor gravimetrico ($FG$). |
 | **`ESTEREO.py`** | Estereoquimica Organica | Calculo de IDH avanzado, maximo de estereoisomeros teoricos ($2^n$) y calculo de exceso enantiomerico ($\%ee$). |
 | **`ESPECTRO.py`** | Espectroscopia y Soluciones | Ley de Beer-Lambert universal (Absorbancia, Epsilon, Transmitancia) y planificador de diluciones seriadas para curvas de calibrado. |
 | **`FISQUIM.py`** | Fisicoquimica y Termodinamica | Gases reales de Van der Waals vs gas ideal, factor de compresibilidad $Z$, propiedades coligativas (presion osmotica, crioscopia, ebulloscopia) y Clausius-Clapeyron. |
 | **`RADIOMG.py`** | Fisica Radiologica e Imagenologia | Decaimiento radiactivo y actividad, blindaje ($HVL, TVL, \mu$), ley de inversa del cuadrado, RMN (frecuencia de Larmor y senal Spin-Echo $T_1/T_2$) y Ultrasonido/Doppler. |
 | **`OPTMEC.py`** | Biofisica, Optica y Mecanica | Ecuacion de Goldman-Hodgkin-Katz ($V_m$), lentes delgadas, Ley de Snell, angulo critico y de Brewster, choques 1D y Relatividad Especial (factor de Lorentz $\gamma$). |
+| **`ELECTRO.py`** | Electromagnetismo y Circuitos AC | Fuerza de Lorentz, radio de Larmor y frecuencia ciclotronica en espectrometria de masas, e impedancia compleja $RLC$ en serie ($X_L, X_C, |Z|, \phi, f_0$). |
 | **`MATEMAT.py`** | Matematica y Algebra Vectorial | Vectores en $\mathbb{R}^3$ (modulos, producto escalar, angulo y producto cruz), regresion lineal por minimos cuadrados ($m, b, r, R^2$) con interpolacion y cuadraticas complejas. |
 | **`ALGEBRA.py`** | Algebra Lineal y Sistemas 3x3 | Resolucion de sistemas $3\times 3$ por Regla de Cramer mostrando todos los determinantes, autovalores/autovectores, polinomio caracteristico e inversa $2\times 2$ y distancia punto-plano. |
 | **`CALCULO.py`** | Calculo Diferencial, Integral y EDO | Derivadas de orden 1, 2 y 3 ($f', f'', f'''$), recta tangente, polinomio de Taylor, integracion numerica por Simpson 1/3 y Trapecios, y solver de EDOs por Runge-Kutta 4 (RK4). |
